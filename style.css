@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  html, body {
+    background: #030303;
+  }
+  
+  header {
+    position: relative;
+    background: #350b70;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    font-size: 18px;
+    border: #e0129c;
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 100px;
+    transition: .3s;
+  }
+  
+  nav a:hover {
+    color: #e0129c;
+  }
+  
+  button {
+    background: #87e012;
+    color: black;
+    padding: 10px;
+  }
+  
+  button:hover {
+    color: #e0129c;
+    background: #350b70;
+  }
+  
+  span {
+    color: coral;
+  }
+  
+  section {
+    margin-right: 10px;
+  }
+  
+  main {
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  footer {
+    color: coral;
+    background-color: rgb(2, 23, 23);
+    margin-top: auto;
+    padding: 35px;
+    text-align: center;
+    border: 10px solid #87e012;
+  }
+  
+  footer p {
+    color: darkgreen;
+  }
+  
+  footer h3 {
+    color: deeppink;
+  }cd
+  
+  .logo {
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .hero {
+    height: 70vh;
+    display: flex;
+  }
+  
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .child_1 {
+    text-align: center;
+    margin: 200px;
+  }
+  
+  .child_2 {
+    flex: 50%;
+    border-radius: 10%;
+    background-image: url("./steffyh1.jpg");
+    text-align: center;
+    padding-top: 100px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 55px;
+    margin-right: 100px;
+    border: 2px solid #e0129c;
+  }
+  
+  .about {
+    border: 10px solid #288ec9;
+    border-left: 10px solid #288ec9;
+    background: rgb(11, 19, 19);
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    color: rgb(34, 30, 247);
+  }
+  
+  #emp {
+    border: 10px #641f4d;
+    border-left: 10px #5c2148;
+    border-style: solid;
+    display: inline-block;
+    background: #71780a;
+    box-shadow: burlywood;
+    color: #030303;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #emp h2 {
+    color: #47325e;
+    margin-top; 
+    text-align: center;
+  }
+  
+  #emp li {
+    display: inline-block;
+    color: #030303;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #edu {
+    border: 10px #e0129c;
+    border-left: 10px #e0129c;
+    border-style: solid;
+    display: flow-root;
+    background: #714eb7;
+    box-shadow: burlywood;
+    color: #030303;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #edu li {
+    display: flow-root;
+    background: #714eb7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #edu h2 {
+    text-align: center;
+    color: brown;
+  }
+  
+  #contactme {
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  #portfolio {
+    padding: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #350b70;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+}
+
+#portfolio button {
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+
+/* tablet - header color changes at max width */
+@media screen and (max-width: 992px) {
+    header {
+      background: #e81396;
+    }
+  }
+  
+  /* large smartphones - section changes color */
+  @media screen and (max-width: 768px) {
+    .about,
+    #emp,
+    #edu {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+    }
+  }
+  
+  /* small smartphones - intro will change color */
+  @media screen and (max-width: 576px) {
+    .child_1 {
+      margin: 100px;
+    }
+  }
+  
+  
+  
+
+
